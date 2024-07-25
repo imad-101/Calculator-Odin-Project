@@ -52,12 +52,18 @@ button:hover{
 }
 .previous , .current{
     padding-right: 1rem ;
-    padding-bottom: 1rem;
+    padding-bottom: 0.8rem;
 }
 .previous{
-    font-size: 1rem;
+    font-size: 1.5rem;
+
     
 }
 .current{
     font-size: 2rem;
+}
+.previous-opp{
+    display: flex;
+    
+    margin-right: 1.5rem;
 }
