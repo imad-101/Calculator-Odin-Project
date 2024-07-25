@@ -66,11 +66,12 @@ function operate(){
     else if(operator == "/"){
         result = previousValue /= currentValue;
     }
+    result = roundNumber(result);
     currentScreen.textContent = result;
     previousScreen.textContent = "";
     oppScreen.textContent = "";
-    result = roundNumber(result);
+    
 }
 function roundNumber(num){
-    Math.round((num * 1000)/1000);
+   return Math.round(num * 1000)/1000;
 }
